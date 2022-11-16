@@ -1,0 +1,37 @@
+{
+  "name": "typescript-discordbot",
+  "version": "1.0.0",
+  "description": "Discord Bot - 100 days of coding",
+  "main": "./prod/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r dotenv/config ./prod/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJBLKCH8N/Typescript-DiscordBot.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Discord",
+    "Bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJBLKCH8N/Typescript-DiscordBot/issues"
+  },
+  "homepage": "https://github.com/AJBLKCH8N/Typescript-DiscordBot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^1.3.0",
+    "@discordjs/rest": "^1.3.0",
+    "discord-api-types": "^0.37.18",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.9.3"
+  }
+}

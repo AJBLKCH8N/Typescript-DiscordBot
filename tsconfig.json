@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "rootDir": "./src",                                   /* Allow multiple folders to be treated as one when resolving modules. */
+    "outDir": "./prod",
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "esModuleInterop": true,
+    "skipDefaultLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+  }
+}
